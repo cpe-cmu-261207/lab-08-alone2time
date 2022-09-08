@@ -40,6 +40,8 @@ export default function Home() {
     setPixels(a);
   };
 
+  
+
   return (
     <div style={{ minHeight: "100vh", backgroundColor: "GhostWhite" }}>
       <PainterContext.Provider value={{ selColor, setSelColor, pixels, paint }}>
